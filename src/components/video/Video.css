@@ -1,10 +1,11 @@
-.hero {
+.video {
     height: 90vh;
     width: 100%;
     top: 90px;
     object-fit: contain;
-    color:  #f4eeff;
+    color: #f4eeff;
 }
+
 #video {
     position: absolute;
     width: 100%;

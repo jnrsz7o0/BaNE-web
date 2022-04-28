@@ -55,8 +55,8 @@ h2 {
 
 .btn-outline {
   background: transparent;
-  border: 1px solid var(--wheat);
-  color: var(--wheat);
+  border: 1px solid var(--terminal-green);
+  color: var(--terminal-green);
 }
 
 @media screen and (max-width: 940px) {
