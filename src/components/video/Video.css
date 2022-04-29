@@ -13,3 +13,26 @@
     object-fit: cover;
     z-index: -1;
 }
+
+.video .video-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.video p {
+    font-size: 1.4rem;
+}
+
+.video .btn {
+    margin: 1rem;
+}
+
+.bottom-text h2 {
+    font-size: 1.6rem;
+    text-align: center;
+}

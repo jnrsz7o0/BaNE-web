@@ -9,19 +9,19 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="container">
-                <h1 style={{marginLeft: '1rem', color:'#00FF33'}}>BaNE</h1>
+                <h1 style={{marginLeft: '1rem', color:'#375BD2'}}>BaNE</h1>
                 <ul className={click ? 'nav active' : 'nav'}>
                     <li className="nav-item">
-                        <a style={{color:'#00FF33'}} href="/">Service</a>
+                        <a style={{color:'#375BD2'}} href="/">Service</a>
                     </li>
                     <li className="nav-item">
-                        <a style={{color:'#00FF33'}} href="/">Contract</a>
+                        <a style={{color:'#375BD2'}} href="/">Contract</a>
                     </li>
                     <li className="nav-item">
-                        <a style={{color:'#00FF33'}} href="/">Community</a>
+                        <a style={{color:'#375BD2'}} href="/">Community</a>
                     </li>
                     <li className="nav-item">
-                        <a style={{color:'#00FF33'}} href="/">Docs</a>
+                        <a style={{color:'#375BD2'}} href="/">Docs</a>
                     </li>
                     <li className="nav-item">
                         <a className='btn' href="/">Apply</a>
