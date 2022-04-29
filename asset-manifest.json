@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BaNE-web/static/css/main.379d7f22.css",
+    "main.js": "/BaNE-web/static/js/main.19297614.js",
+    "static/media/hexPulse.mp4": "/BaNE-web/static/media/hexPulse.3eec0fc304a0992ee9ab.mp4",
+    "static/media/hexTexture.jpg": "/BaNE-web/static/media/hexTexture.39709c40becb033dc6f0.jpg",
+    "index.html": "/BaNE-web/index.html",
+    "main.379d7f22.css.map": "/BaNE-web/static/css/main.379d7f22.css.map",
+    "main.19297614.js.map": "/BaNE-web/static/js/main.19297614.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.379d7f22.css",
+    "static/js/main.19297614.js"
+  ]
+}
