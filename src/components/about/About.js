@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css'
-import {SiHiveBlockchain, SiStrapi, SiFsecure} from 'react-icons/si';
+import {SiHiveBlockchain, SiChainlink, SiFsecure} from 'react-icons/si';
+import {FaLock} from 'react-icons/fa';
 import {VscServerProcess} from 'react-icons/vsc';
 import AboutCard from './AboutCard';
 
@@ -12,16 +13,16 @@ const About = () => {
                 <p>sample description</p>
                 <div className="card-container">
                     <div className="card">
-                        <AboutCard icon={<SiHiveBlockchain className='icon' />} heading='Scaleable' text='Setup nodes and databases in the time it takes to make a cup of coffee.'/>
+                        <AboutCard icon={<SiHiveBlockchain className='icon' />} heading='Scaleable' text='Build nodes on whatever hardware you want, just SSH in and get started.'/>
                     </div>
                     <div className="card">
-                        <AboutCard icon={<SiStrapi className='icon' />} heading='heading 2' text='Lorum ipsum and so on'/>
+                        <AboutCard icon={<SiChainlink className='icon' />} heading='Trusted' text='Be a part of the most trusted oracle network in crypto, provide quality data to leading DeFi protocols.'/>
                     </div>
                     <div className="card">
-                        <AboutCard icon={<SiFsecure className='icon' />} heading='Scaleable' text='Lorum ipsum and so on'/>
+                        <AboutCard icon={<FaLock className='icon' />} heading='Secure' text='Build on secure mechanisms like SSH for direct node management from bare-metal resources, no docker necessary!'/>
                     </div>
                     <div className="card">
-                        <AboutCard icon={<VscServerProcess className='icon' />} heading='Scaleable' text='Lorum ipsum and so on'/>
+                        <AboutCard icon={<VscServerProcess className='icon' />} heading='Simple' text='Setup nodes and databases in the time it takes to make a cup of coffee.'/>
                     </div>
                 </div>
                 <a href='/' className='btn'>Button 2</a>
